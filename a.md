@@ -1,6 +1,6 @@
-##R 을 하면서  정리   
+## R 을 하면서  정리   
 
-###1.변수의 선언  
+### 1.변수의 선언  
 ```
 my_numeric <- 42      
 
@@ -8,15 +8,15 @@ my_numeric = 42
 ```
 둘다 같은 방식으로 변수 선언을 할수 있음  
 
-###2. 파이썬의 type()
+### 2. 파이썬의 type()
 
 python의 type() 과 유사한 class() 가 있음
 
-###3.vector 형식   
+### 3.vector 형식   
 
 vector = c("하하","안녕",1)
 
-###4.factor 자료형  
+### 4.factor 자료형  
 
 levels 과 labels 용어 그대로 직관적인 의미를 가짐
 
