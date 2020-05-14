@@ -23,6 +23,7 @@ levels 과 labels 용어 그대로 직관적인 의미를 가짐
 레벨값을 정할수 있고 라벨링을 한다고 생각하면됨
 
 예시)
+변수를 선언함
 ```
 sex_vector <- c("남", "여", "남")
 factor_sex_vector <- factor(sex_vector)
@@ -34,6 +35,9 @@ factor_sex_vector
 
 >Levels: 남 여
 ```
+
+레벨을 변경
+
 ```
 levels(factor_sex_vector) <- c("남성", "여성")
 factor_sex_vector
@@ -44,3 +48,4 @@ factor_sex_vector
 [1] 남성 여성 남성
 Levels: 남성 여성
 ```
+
